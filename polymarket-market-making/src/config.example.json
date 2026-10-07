@@ -1,0 +1,16 @@
+{
+  "wallets": {
+    "TraderA": "0x<proxy wallet address>",
+    "TraderB": "0x<proxy wallet address>"
+  },
+  "poll_sec": 20,
+  "live_ws": true,
+  "ws_backup_poll_sec": 300,
+  "copy_ratio": 1.0,
+  "max_usdc_per_trade": 50.0,
+  "min_usdc_per_trade": 1.0,
+  "max_copy_latency_sec": 120,
+  "mark_every_sec": 600,
+  "settle_every_sec": 600,
+  "db_path": "follower.db"
+}
